@@ -75,6 +75,14 @@ local plugins = {
             require("custom.configs.dashboard")
         end,
         dependencies = { { 'nvim-tree/nvim-web-devicons' } }
+    },
+
+    {
+        "pocco81/auto-save.nvim",
+        cmd = { "ASToggle" },
+        config = function()
+            require("custom.configs.auto-save")
+        end
     }
     -- To make a plugin not be loaded
     -- {

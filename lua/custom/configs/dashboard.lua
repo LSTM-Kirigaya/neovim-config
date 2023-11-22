@@ -58,7 +58,7 @@ db.setup({
             enable = false
         },
         mru = {
-            limit = 6,
+            limit = 10,
             icon = '☕'
         }
     }
